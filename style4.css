@@ -1,0 +1,27 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+div:hover {
+    background-color: #0080ff;
+    width: 150px;
+    height: 150px;
+    # добавляем свойство для плавности:
+    transition: 1s;
+}
+
+a:link {
+    color: deeppink;
+}
+
+a:visited {
+    color: olivedrab;
+}
+
+a:active{
+    color: royalblue;
+}
